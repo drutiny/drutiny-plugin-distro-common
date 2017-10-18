@@ -1,0 +1,15 @@
+title: "Robotstxt"
+class: \Drutiny\Audit\Drupal\ModuleEnabled
+name: Distro:RobotstxtEnabled
+tags:
+  - SEO
+  - Multisite
+description: |
+  Ensure the Robotstxt module is enabled.
+remediation: |
+  Install and enable the Robotstxt module into your codebase.
+success: "Robotstxt module is enabled."
+failure: Robotstxt module is not enabled.
+parameters:
+  module:
+    default: robotstxt
