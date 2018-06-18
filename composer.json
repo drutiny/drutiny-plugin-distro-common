@@ -13,7 +13,7 @@
         "source": "https://github.com/drutiny/plugin-distro-common"
     },
     "require": {
-        "drutiny/drutiny": "2.1.*@dev",
+        "drutiny/drutiny": "2.1.*@dev || 2.2.*@dev",
         "symfony/yaml": "^3.2"
     },
     "autoload": {
